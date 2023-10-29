@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
               title: Text('Logout'),
               onTap: () {
                 // Implement logout functionality
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/login');
               },
             ),
           ],
